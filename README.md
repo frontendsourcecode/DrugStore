@@ -25,6 +25,19 @@ Password: Admin@2020
 
 OTP For Android Verification: 000000
 
+## Admin Panel Setup
+
+- Download Xampp 7.4 [Xampp](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.33/xampp-windows-x64-7.4.33-0-VC15-installer.exe/download)
+- Install Xampp
+- Run Xampp Control Panel
+- Start Apache & MySql
+- Go to http://localhost/phpmyadmin/
+- Upload Php Files in to xampp/htdocs folder
+- Import Data base from PHP-SourceCode/drugstore.sql
+- Update Config File In PHP-SourceCode/admin/includes/config.php & PHP-SourceCode/api/v1/config.php
+- Start Your Website http://localhost/yourfoldername
+- For Android Integration http://yourvIP4Address/yourfoldername/api/v1/
+
 ## Features
 The android app lets you:
 - Authenticate via phone and password.
